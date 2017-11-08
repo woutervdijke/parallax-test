@@ -1,0 +1,25 @@
+
+.background {
+    transform-style: preserve-3d;
+    width: 80%;
+    height: auto;
+    background-image: url("forestblurry.jpg");
+    background-size: cover;
+}
+
+.background img {
+    width: 100%;
+    opacity: 0;
+}
+
+.foreground {
+    transform: translateZ(200px) translateX(-50%) translateY(-50%) scaleY(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    background-image: url("lifter.png");
+    background-size: cover;
+
+}
