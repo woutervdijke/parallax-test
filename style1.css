@@ -1,0 +1,35 @@
+body {
+    background-color: antiquewhite;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    max-width: 60%;
+    margin: 0 auto 5%;
+    background-image: url("forestblurry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.scene {
+    padding: 0;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 480px), only screen and (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+}
