@@ -33,12 +33,12 @@ img {
 
 .container p, h1 {
     width: 80%;
-    text-align: justify;
     margin: 30px auto 5px;
 }
 
 .container p {
     line-height: 26px;
+    text-align: justify;
 }
 #parallaxbg {
     margin-top: 20px;
