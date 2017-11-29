@@ -1,5 +1,13 @@
 body {
-    background-color: antiquewhite;
+    font-family: "LFT Etica", "Droid Sans", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Guardian Egyp Medium", "Droid Serif", serif;
+}
+
+h1 {
+    font-size: 3em;
 }
 ul {
     margin: 0;
@@ -14,14 +22,25 @@ img {
 
 .container {
     position: relative;
-    max-width: 60%;
+    max-width: 75%;
     margin: 0 auto 5%;
+}
+
+.container p {
+    width: 80%;
+
+    text-align: justify;
+    margin: 30px auto 5px;
+    line-height: 1.5em;
+}
+#parallaxbg {
+    margin-top: 20px;
+    width: 100%;
     background-image: url("forestblurry.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
-
 .scene {
     padding: 0;
     margin: 0;
