@@ -1,5 +1,6 @@
 body {
-    font-family: "LFT Etica", "Droid Sans", sans-serif;
+    font-family: "Guardian TextEgyp", "Droid Sans", sans-serif;
+    font-weight: lighter;
 }
 
 h1, h2 {
@@ -8,6 +9,10 @@ h1, h2 {
 
 h1 {
     font-size: 3em;
+}
+
+h2{
+    text-align: center;
 }
 ul {
     margin: 0;
@@ -26,12 +31,11 @@ img {
     margin: 0 auto 5%;
 }
 
-.container p {
+.container p, h1 {
     width: 80%;
-
     text-align: justify;
     margin: 30px auto 5px;
-    line-height: 1.5em;
+    line-height: 26px;
 }
 #parallaxbg {
     margin-top: 20px;
